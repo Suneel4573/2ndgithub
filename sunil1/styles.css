@@ -1,0 +1,9 @@
+
+.test{
+    color:red;
+    
+}
+
+.parent .test{
+    color:blueviolet;
+}

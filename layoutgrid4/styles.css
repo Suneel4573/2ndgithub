@@ -1,0 +1,34 @@
+.hello{
+    width:200px;
+    border:1px solid red;
+    padding: 10px;
+    margin: 40px;
+    border:1px solid red;
+    position:relative;
+    
+}
+.hello:hover{
+    transform: scale(1.2);
+    background-color: yellow;
+
+    
+}
+.hello::after {
+    content: "✕";
+    border:1px solid black;
+    background-color: yellow;
+    font-weight: bold;
+    display:inline-block;
+    /* height:20px;
+    width:100px; */
+    position:absolute;
+    right:0%;
+    top:0%
+
+}
+.hello::before {
+    content: "extra";
+    color:red;
+    background-color: yellow;
+    font-weight: bold;
+}
